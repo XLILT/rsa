@@ -1,0 +1,5 @@
+flags = ['-g', '-Wall']
+libs = ['ssl']
+
+env = Environment(CXXFLAGS = flags, LIBS = libs)
+env.Program("rsa", "rsa.cpp")
