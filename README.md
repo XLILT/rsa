@@ -9,11 +9,11 @@ Build
 
 relay on: openssl, scons
 
-openssl : 
+install openssl : 
 
     yum install -y openssl-devel openssl
 
-scons : 
+install scons : 
 
     yum install -y scons
 
