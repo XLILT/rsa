@@ -21,7 +21,7 @@ step1: generate private key file
 
 step2: generate public key file
 
-   openssl rsa -in test.key -pubout -out test_pub.key
+    openssl rsa -in test.key -pubout -out test_pub.key
 
 step3: run demo
 
